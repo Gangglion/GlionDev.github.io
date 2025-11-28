@@ -1,5 +1,5 @@
 ---
-title: "SAA 와 Fragment Navigation - 1 (XML Based Graph)"
+title: "SAA & Fragment Navigation - 1 (XML Based Graph)"
 date: 2024-12-23 11:30:00 +0900
 categories: [Android]
 tags: [jetpack, fragment, navigation, xml, graph, SAA]

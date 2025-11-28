@@ -1,5 +1,5 @@
 ---
-title: "[Android] Fragment Navigation - 2 (Using Kotlin DSL)"
+title: "Fragment Navigation - 2 (Using Kotlin DSL)"
 date: 2024-12-26 11:30:00 +0900
 categories: [Android]
 tags: [jetpack, fragment, navigation, DSL]
@@ -9,7 +9,7 @@ tags: [jetpack, fragment, navigation, DSL]
 
 > [!INFO]
 > **이전 글 보러가기**
-> [[Android] SAA 와 Fragment Navigation - 1 (XML Based Graph)](https://gangglion.tistory.com/entry/Android-Fragment-Navigation-1-XML-Based-Graph)
+> [[Android] SAA 와 Fragment Navigation - 1 (XML Based Graph)](https://gliondev.github.io/posts/Fragment-Navigation-XML-Based-Graph/)
 
 ## 개요
 Android Docs 의 Navigation 파트의 `탐색 그래프 설계 - 개요` 를 보면 프로그래매틱 방식을 소개하고 있다.
