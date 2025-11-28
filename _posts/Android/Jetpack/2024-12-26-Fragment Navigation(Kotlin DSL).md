@@ -1,7 +1,7 @@
 ---
-title: "Fragment Navigation - 2 (Using Kotlin DSL)"
+title: 'Fragment Navigation - 2 (Using Kotlin DSL)'
 date: 2024-12-26 11:30:00 +0900
-categories: [Android]
+categories: [Android, Jetpack]
 tags: [jetpack, fragment, navigation, DSL]
 ---
 
