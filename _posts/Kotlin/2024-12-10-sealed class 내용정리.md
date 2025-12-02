@@ -5,7 +5,7 @@ categories: [Kotlin]
 tags: [Kotlin, Sealed, Class, Interface]
 ---
 
-# 등장 배경
+## 등장 배경
 
 카페에 주문이 들어왔다고 가정한다. 여러가지 과정이 있겠지만 크게
 
@@ -76,7 +76,7 @@ else 에 걸려 **할일이 없다고 아무것도 하지 않고 있었다!**
 
 이와같은 상황에서 설명할 Sealed Class / interface 는 이러한 문제를 방지하고, 깔끔하게 관리할 수 있게 해준다.
 
-# Sealed Class / Interface 란?
+## Sealed Class / Interface 란?
 
 Selaed(봉인된) 클래스와 인터페이스는 클래스 계층 구조에서의 제어된 상속을 제공한다. 이 말은 즉,
 
@@ -158,7 +158,7 @@ class Adjustment : Manager() {
 }
 ```
 
-# sealed class 생성자
+## sealed class 생성자
 
 sealed class 도 클래스이니 생성자를 가질 수 있다.
 
@@ -193,7 +193,7 @@ fun getStaffStatus(staff: Staff): String {
 
 sealed class 의 생성자의 접근자는 protected(기본값), private 두 종류중 하나만 가질 수 있다. 별도로 생성하지 않는 한 protected 로 생성된다.
 
-# sealed class 와 enum class 의 사용
+## sealed class 와 enum class 의 사용
 
 sealed class 내에서 enum class 를 사용하여 상태를 표현하고, 추가적인 세부정보를 제공할 수 있다.
 
@@ -235,13 +235,13 @@ sealed class Error(val severity: ErrorSeverity) {
 }
 ```
 
-# 주의해야 할 점
+## 주의해야 할 점
 
 - **sealed class 는 같은 패키지의 자식 클래스만 상속 가능하다.**
   - 컴파일러가 모든 패키지를 돌면서 sealed class 를 상속한 서브 클래스를 찾는것은 리소스 소모가 너무 크다. 따라서 sealed class 는 subClass 에 대한 선언을 같은 패키지 내로 제한한다.
 - **sealed class 는 추상클래스로서, 직접적인 객체 생성이 불가능하다**
 
-# Android App 에서의 사용
+## Android App 에서의 사용
 
 그럼 이 sealed class / interface 를 Android App 에서 어떻게 사용할 수 있을까?
 
@@ -320,7 +320,7 @@ lifecycleScope.launch {
 }
 ```
 
-# 참고 링크
+## 참고 링크
 
 -   [티스토리 블로그 - 조세영의 Kotlin World](https://kotlinworld.com/165)
 -   [Kotlin docs](https://kotlinlang.org/docs/sealed-classes.html)
